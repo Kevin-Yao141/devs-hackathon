@@ -1,14 +1,15 @@
+import { Grid } from "@mui/material";
 import React from "react";
 
 
 const SettingsPage = () => {
 
   return (
-    <div classname = "text-red-600">
-      <p>settings</p>
+    <div>
+    <p> hi</p>
     </div>
   );
 };
 
 
-export default SettingsPage;
+        export default SettingsPage;

@@ -3,7 +3,7 @@ import React from "react";
 const WorkoutsPage = () => {
   return (
     <div>
-      <p>w</p>
+      <p>workout</p>
     </div>
   );
 };
