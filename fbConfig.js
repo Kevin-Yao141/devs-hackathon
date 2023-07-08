@@ -4,8 +4,8 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-
+  apiKey: "AIzaSyCbzeT9Sw8xaf5qeHjJqT3DZASNoW8PfsM",
+  
   authDomain: "devs-hackathon.firebaseapp.com",
 
   projectId: "devs-hackathon",

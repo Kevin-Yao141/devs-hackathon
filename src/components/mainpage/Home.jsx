@@ -5,6 +5,7 @@ import { PageContext } from "../../App";
 import SearchPage from "./SearchPage";
 import WorkoutsPage from "./WorkoutsPage";
 import ProfilePage from "./ProfilePage";
+import SettingsPage from "./SettingsPage";
 
 const Home = () => {
   const { page } = useContext(PageContext);
@@ -16,6 +17,7 @@ const Home = () => {
       {page == "search" && <SearchPage />}
       {page == "workout" && <WorkoutsPage />}
       {page == "profile" && <ProfilePage />}
+      {page == "settings" && <SettingsPage />}
     </div>
   );
 };

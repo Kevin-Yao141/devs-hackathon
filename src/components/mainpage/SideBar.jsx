@@ -50,7 +50,7 @@ const SideBar = () => {
       <button onClick={() => setPage("search")}>Search</button>
       <button onClick={() => setPage("workout")}>Workouts</button>
       <button onClick={() => setPage("profile")}>Profile</button>
-      <button>Settings</button>
+      <button onClick={() => setPage("settings")}>Settings</button>
       {openNewPost && (
         <CreatePostModal open={openNewPost} close={closeNewPost} />
       )}
